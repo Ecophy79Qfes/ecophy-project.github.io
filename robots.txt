@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://ecophy-project.github.io/sitemap.xml
+Sitemap: https://ecophy79qfes.github.io/ecophy-project.github.io/sitemap.xml
