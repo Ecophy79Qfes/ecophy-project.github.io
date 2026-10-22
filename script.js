@@ -52,13 +52,13 @@ const PRODUCTS = [
 
 
   {
-    id: "drink-cupholder-set-04",
+    id: "drink-keyholder-set",
     label: "SET 04",
-    name: "飲み物＋カップホルダーセット",
+    name: "飲み物＋キーホルダーセット",
     price: "950円",
 
     description:
-      "飲み物とカップホルダーを組み合わせたセットです。九大祭当日に予約なしで購入できます。",
+      "お好きな飲み物とキーホルダーを組み合わせたセットです。九大祭当日に予約なしで購入できます。",
 
     requiresReservation: false
   },
