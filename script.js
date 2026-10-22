@@ -28,7 +28,7 @@ const PRODUCTS = [
     id: "keyholder",
     label: "GOODS 02",
     name: "キーホルダー（大・小）",
-    price: "500円",
+    price: "700円",
     priceNote: "1個当たり",
 
     description:
@@ -42,12 +42,12 @@ const PRODUCTS = [
     id: "drink-cupholder-set",
     label: "SET 03",
     name: "飲み物＋カップホルダーセット",
-    price: "700円",
+    price: "950円",
 
     description:
-      "飲み物とカップホルダーを組み合わせたセットです。カップホルダーにはアルファベット5文字以内で名前を印刷できます。",
+      "飲み物とカップホルダーを組み合わせたセットです。九大祭当日に予約なしで購入できます。",
 
-    requiresReservation: true
+    requiresReservation: false
   },
 
 
@@ -84,7 +84,7 @@ const PRODUCTS = [
     id: "drink",
     label: "DRINK 06",
     name: "飲み物（単体）",
-    price: "300円",
+    price: "350円",
 
     description:
       "九大祭で提供するドリンクです。複数種類をご用意する予定で、ラインナップは確定次第お知らせします。",
@@ -96,8 +96,8 @@ const PRODUCTS = [
   {
     id: "coffee-deodorizer",
     label: "UPCYCLE 07",
-    name: "コーヒー由来消臭剤",
-    price: "200円",
+    name: "アップサイクル消臭剤",
+    price: "300円",
 
     description:
       "コーヒー由来の素材を活用した消臭剤です。身近な未利用資源の新しい使い道を感じていただける商品です。",
@@ -179,7 +179,7 @@ const RESERVATION_PRODUCTS = {
     name:
       "キーホルダー（大）",
 
-    price: 500,
+    price: 700,
 
     printName: {
 
@@ -195,7 +195,7 @@ const RESERVATION_PRODUCTS = {
     name:
       "キーホルダー（小）",
 
-    price: 500,
+    price: 700,
 
     printName: {
 
@@ -204,36 +204,6 @@ const RESERVATION_PRODUCTS = {
     }
 
   },
-
-
-  "cupholder-set-06": {
-
-    name:
-      "カップホルダー（SET 03）",
-
-    price: 700,
-
-    printName: {
-
-      required: true,
-
-      label:
-        "カップホルダーに印刷する名前",
-
-      maxLength: 5,
-
-      pattern:
-        "[A-Za-z]{1,5}",
-
-      placeholder:
-        "例：ECOPH",
-
-      help:
-        "アルファベット5文字以内で入力してください。"
-
-    }
-
-  }
 
 };
 
@@ -245,13 +215,13 @@ const RESERVATION_PRODUCTS = {
 const EVENT_INFO = {
 
   dates:
-    "10月31日（金）・11月1日（土）",
+    "10月31日（土）・11月1日（日）",
 
   place:
     "2301教室",
 
   reservationDeadline:
-    "2026-10-12"
+    "2026-10-19"
 
 };
 
@@ -500,10 +470,6 @@ const RESERVATION_OPTIONS = `
 
   <option value="keyholder-small">
     キーホルダー（小）
-  </option>
-
-  <option value="cupholder-set-06">
-    カップホルダー（SET 03）
   </option>
 
 `;
@@ -1295,10 +1261,7 @@ function addProductFromCard(
       "original-keyholder-large",
 
     "keyholder":
-      "keyholder-large",
-
-    "drink-cupholder-set":
-      "cupholder-set-06"
+      "keyholder-large"
 
   };
 
