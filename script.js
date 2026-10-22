@@ -52,29 +52,26 @@ const PRODUCTS = [
 
 
   {
-    id: "drink-keyholder-set",
+    id: "drink-cupholder-set-04",
     label: "SET 04",
-    name: "飲み物＋キーホルダーセット",
-    price: "600円",
+    name: "飲み物＋カップホルダーセット",
+    price: "950円",
 
     description:
-      "お好きな飲み物とキーホルダーを一緒に楽しめるセットです。単品で購入するよりお得な価格です。",
-
-    caution:
-      "このキーホルダーには、入れる名前を指定することはできませんので、ご注意ください。",
+      "飲み物とカップホルダーを組み合わせたセットです。九大祭当日に予約なしで購入できます。",
 
     requiresReservation: false
   },
 
 
   {
-    id: "coaster",
-    label: "GOODS 05",
-    name: "コースター",
+    id: "baumkuchen",
+    label: "SWEETS 05",
+    name: "バームクーヘン",
     price: "300円",
 
     description:
-      "毎日の飲み物時間に使えるコースター。Ecophyらしい素材の背景も一緒に楽しめる製品を目指しています。",
+      "九大祭当日に販売するバームクーヘンです。飲み物と一緒にお楽しみいただけます。",
 
     requiresReservation: false
   },
