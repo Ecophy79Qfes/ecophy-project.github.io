@@ -42,7 +42,7 @@ const PRODUCTS = [
     id: "drink-cupholder-set",
     label: "SET 03",
     name: "飲み物＋カップホルダーセット",
-    price: "950円",
+    price: "900円",
 
     description:
       "飲み物とカップホルダーを組み合わせたセットです。九大祭当日に予約なしで購入できます。",
@@ -50,18 +50,6 @@ const PRODUCTS = [
     requiresReservation: false
   },
 
-
-  {
-    id: "drink-keyholder-set",
-    label: "SET 04",
-    name: "飲み物＋キーホルダーセット",
-    price: "950円",
-
-    description:
-      "お好きな飲み物とキーホルダーを組み合わせたセットです。九大祭当日に予約なしで購入できます。",
-
-    requiresReservation: false
-  },
 
 
   {
@@ -81,7 +69,7 @@ const PRODUCTS = [
     id: "drink",
     label: "DRINK 06",
     name: "飲み物（単体）",
-    price: "350円",
+    price: "300円",
 
     description:
       "九大祭で提供するドリンクです。複数種類をご用意する予定で、ラインナップは確定次第お知らせします。",
